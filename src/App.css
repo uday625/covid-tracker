@@ -24,3 +24,10 @@ body{
     column-gap: 10px;
     margin: 10px auto;
 }
+
+@media(max-width: 900px){
+    .app{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+}
