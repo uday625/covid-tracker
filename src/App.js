@@ -2,6 +2,7 @@ import { FormControl, Select, MenuItem, Card, CardContent} from '@material-ui/co
 import { useEffect, useState } from 'react';
 import './App.css';
 import InfoBox from './components/InfoBox/InfoBox';
+import LineGraph from './components/LineGraph/LineGraph';
 import Map from './components/Map/Map'
 import Table from './components/Table/Table'
 import {sortData} from './util'
@@ -82,7 +83,8 @@ function App() {
           <CardContent>
             <h2> Live cases by country</h2>
             <Table countries={tableData}/>
-            <div> Worldwide new cases</div>
+            <h2> Worldwide new cases</h2>
+            <LineGraph/>
           </CardContent>
         </Card>
       </div>
