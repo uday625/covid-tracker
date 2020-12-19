@@ -1,0 +1,25 @@
+.table{
+    margin-top: 10px;
+    height: 50vh;
+    overflow-x: unset;
+    overflow-y: scroll;
+    display: grid;
+    color: #6a5d5d;
+}
+.table tr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table td{
+    padding: 5px;
+}
+
+.table tr:nth-of-type(odd){
+    background-color: #f3f2f8
+}
+
+.table__cases{
+    text-align:right;
+    margin-right: 10px;
+}
